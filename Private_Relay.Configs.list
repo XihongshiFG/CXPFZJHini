@@ -1,9 +1,8 @@
 # 检测与配置流量(需代理):
-payload:
+# payload:
 # > iCloud Private Relay
-  # https://developer.apple.com/cn/support/prepare-your-network-for-icloud-private-relay/
-  # https://mask-api.icloud.com/egress-ip-ranges.csv
-
-  # Allow for network traffic audits
-  - DOMAIN,mask-api.icloud.com
-  - DOMAIN,mask-api.fe.apple-dns.net
+# https://developer.apple.com/cn/support/prepare-your-network-for-icloud-private-relay/
+# https://mask-api.icloud.com/egress-ip-ranges.csv
+# Allow for network traffic audits
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-api.fe.apple-dns.net
