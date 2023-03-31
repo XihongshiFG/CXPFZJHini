@@ -10,4 +10,6 @@ DOMAIN,canary.mask.apple-dns.net
 DOMAIN,mask-h2.icloud.com
 DOMAIN,mask-t.apple-dns.net
 IP-CIDR,17.248.165.0/24
+IP-CIDR,17.248.166.0/24
+IP-CIDR,17.248.167.0/24
 IP-CIDR,17.248.170.0/24
